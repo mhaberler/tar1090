@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "RMZ",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "RMZ Vöslau", "description": null, "altitudeMode": "absolute", "extrude": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 16.2958, 47.9167 ], [ 16.2489, 47.91 ], [ 16.1667, 47.9658 ], [ 16.1583, 48.0056 ], [ 16.1819, 48.0222 ], [ 16.2667, 48.0181 ], [ 16.3889, 47.9417 ], [ 16.3675, 47.9225 ], [ 16.3381, 47.9308 ], [ 16.3253, 47.9314 ], [ 16.2958, 47.9167 ] ] ] } },
+{ "type": "Feature", "properties": { "Name": "RMZ Wiener Neustadt", "description": null, "altitudeMode": "absolute", "extrude": 1 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ 16.2336, 47.8089 ], [ 16.2442, 47.8603 ], [ 16.2467, 47.8678 ], [ 16.2886, 47.8767 ], [ 16.3722, 47.8639 ], [ 16.3644, 47.8319 ], [ 16.3325, 47.8078 ], [ 16.3194, 47.7833 ], [ 16.2583, 47.7967 ], [ 16.2336, 47.8089 ] ] ] } }
+]
+}
