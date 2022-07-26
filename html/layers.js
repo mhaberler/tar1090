@@ -522,7 +522,7 @@ function createBaseLayers() {
     europe.push(createGeoJsonLayer('UK AWACS Orbits', 'uka2awacsorbits', 'geojson/UK_Mil_AWACS_Orbits.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
 
     //europe.push(createGeoJsonLayer('Todi NOTAM W2006/22', 'mahtest', 'geojson/todi/todi.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
-    europe.push(createGeoJsonLayer('Todi NOTAM W2006/22', 'mahtest', 'geojson/todi/todi.geojson', 'rgba(0, 255, 0, 0.6)', 'rgba(0, 255, 0, 1)', false));
+    europe.push(createGeoJsonLayer('Todi NOTAM W2006/22', 'mahtest', 'geojson/todi/todi.geojson', 'rgba(0, 255, 0, 0.6)', 'rgba(0, 255, 0, 1)', true));
     europe.push(createGeoJsonLayer('AT CTR', 'mahtest', 'geojson/openaip_airspace_austria_at/CTR.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
     europe.push(createGeoJsonLayer('AT C', 'mahtest', 'geojson/openaip_airspace_austria_at/C.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
     europe.push(createGeoJsonLayer('AT Danger', 'mahtest', 'geojson/openaip_airspace_austria_at/Danger.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
