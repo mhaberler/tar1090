@@ -497,7 +497,7 @@ function createBaseLayers() {
                     }),
                     stroke: new ol.style.Stroke({
                         color: stroke,
-                        width: 1
+                        width: 3
                     }),
                     text: new ol.style.Text({
                         text: showLabel ? feature.get("name") : "",
