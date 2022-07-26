@@ -523,13 +523,13 @@ function createBaseLayers() {
 
     //europe.push(createGeoJsonLayer('Todi NOTAM W2006/22', 'mahtest', 'geojson/todi/todi.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
     europe.push(createGeoJsonLayer('Todi NOTAM W2006/22', 'mahtest', 'geojson/todi/todi.geojson', 'rgba(255, 0, 0, 0.6)', 'rgba(255, 0, 0, 1)', true));
-    europe.push(createGeoJsonLayer('AT CTR', 'mahtest', 'geojson/openaip_airspace_austria_at/CTR.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
-    europe.push(createGeoJsonLayer('AT C', 'mahtest', 'geojson/openaip_airspace_austria_at/C.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
-    europe.push(createGeoJsonLayer('AT Danger', 'mahtest', 'geojson/openaip_airspace_austria_at/Danger.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
-    europe.push(createGeoJsonLayer('AT D', 'mahtest', 'geojson/openaip_airspace_austria_at/D.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
-    europe.push(createGeoJsonLayer('AT Gliding', 'mahtest', 'geojson/openaip_airspace_austria_at/Gliding_area.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
-    europe.push(createGeoJsonLayer('AT Restricted', 'mahtest', 'geojson/openaip_airspace_austria_at/Restricted.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
-    europe.push(createGeoJsonLayer('AT RMZ', 'mahtest', 'geojson/openaip_airspace_austria_at/RMZ.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
+ //   europe.push(createGeoJsonLayer('AT CTR', 'mahtest', 'geojson/openaip_airspace_austria_at/CTR.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
+ //   europe.push(createGeoJsonLayer('AT C', 'mahtest', 'geojson/openaip_airspace_austria_at/C.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
+ //   europe.push(createGeoJsonLayer('AT Danger', 'mahtest', 'geojson/openaip_airspace_austria_at/Danger.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
+ //   europe.push(createGeoJsonLayer('AT D', 'mahtest', 'geojson/openaip_airspace_austria_at/D.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
+ //   europe.push(createGeoJsonLayer('AT Gliding', 'mahtest', 'geojson/openaip_airspace_austria_at/Gliding_area.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
+ //   europe.push(createGeoJsonLayer('AT Restricted', 'mahtest', 'geojson/openaip_airspace_austria_at/Restricted.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
+ //   europe.push(createGeoJsonLayer('AT RMZ', 'mahtest', 'geojson/openaip_airspace_austria_at/RMZ.geojson', 'rgba(252, 186, 3, 0.3)', 'rgba(252, 186, 3, 1)', false));
 
 
     us.push(createGeoJsonLayer('US A2A Refueling', 'usa2arefueling', 'geojson/US_A2A_refueling.geojson', 'rgba(52, 50, 168, 0.3)', 'rgba(52, 50, 168, 1)'));
